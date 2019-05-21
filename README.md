@@ -1,7 +1,14 @@
 # Python Live Project - Code Retrospective
 
-## Introduction
-During my Python Live Project at the Tech Academy, I worked for two weeks with a development team of peers on a web application that facilitates a variety of microservices. The primary languages I used during this project were Python, HTML, CSS and the Django framework. Along with those languages I also utilized Git, Azure DevOps and Slack to coordinate with my team. I had the opportunity to create a new feature and improve existing apps. The user stories I completed involved both front and back end work, which provided a rounded development experience. Continue reading to see code snips and small examples of my work. 
+## Table of Contents
+* Introduction
+* The Habit Tracker: starting an app from scratch
+* Craigslist App: Adding improvements to an existing app
+* Styling Changes: Front end updates to the main app
+* Overall Summary
+
+### Introduction
+During my Python Live Project at the Tech Academy, I worked for two weeks with a development team of peers on a web application that facilitates a variety of microservices. The primary languages I used during this project were Python, HTML, CSS and the Django framework. Along with those languages I also utilized Git, Azure DevOps and Slack to coordinate with my team. I had the opportunity to create a new feature and improve existing apps. The user stories I completed involved both front and back end work, which provided a rounded development experience. 
 
 ### The Creation of a Habit Tracker App
 The most substantial code I implemented was building an app that presented users the ability to make daily entries about their habits, and view the results of those entries displayed in a legible manner. This involved the following:
@@ -48,6 +55,8 @@ def history_view(request):
 
 Below is the initial styling for the habit history data requested from the user. This output page verified the user who made the request, addressed them directly in the header, and displayed relevant results. 
 ![History table results](https://github.com/jrs-scott/Code-Retrospectives/blob/master/results-page.JPG)
+
+Creating the foundation of this application inspired me. If I had more time, I would have loved to add graphs for the data results instead of a table, as well as allowing the user to create custom habits to track. 
 
 ### Extend Functionality of the Craigslist Scraper App
 One of the established apps took a request from the user and returned relevant sales listings from Craigslist. It started out by returning the title, price, and link to view it on the Craigslist site. I added the ability to also return the primary image from the listing using BeautifulSoup. Here is a code snip from that project:
